@@ -5,5 +5,5 @@ title: "pranjul11garg.io"
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-![](./images/011.jpg){width="80%" fig-align="left"}
-![](images/996E7935-AA9F-42A1-B139-1C34FCEFE5D9.jpeg){width="80%" fig-align="right"}
+![](./videos/Video-298.mp4){width="50%" fig-align="left"}
+![](.images/996E7935-AA9F-42A1-B139-1C34FCEFE5D9.jpeg){width="80%" fig-align="right"}
