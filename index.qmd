@@ -1,5 +1,5 @@
 ---
-title: "pranjul11garg.io"
+title: "Pranjul Garg"
 ---
 
 This is a Quarto website.
