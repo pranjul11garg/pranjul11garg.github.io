@@ -1,5 +1,9 @@
 ---
 title: "About me"
+format:
+  html:
+    theme: quartz
+    css: styles.css
 ---
 
 I am Pranjul, a graduate student at Boston University, Boston, USA
