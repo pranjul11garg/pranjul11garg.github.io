@@ -1,8 +1,6 @@
 ---
-title: "Projects"
 format:
   html:
     theme: quartz
     css: styles.css
 ---
-This is where my projects are gonna be!
