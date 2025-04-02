@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "This is where my projects are gonna be!"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pranjul Garg",
@@ -19,5 +12,12 @@
     "title": "About me",
     "section": "",
     "text": "I am Pranjul, a graduate student at Boston University, Boston, USA"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is where my projects are gonna be!"
   }
 ]
