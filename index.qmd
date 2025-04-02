@@ -1,5 +1,9 @@
 ---
 title: "Pranjul Garg"
+format:
+  html:
+    theme: quartz
+    css: styles.css
 ---
 
 This is a Quarto website.
