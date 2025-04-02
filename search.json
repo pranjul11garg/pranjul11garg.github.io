@@ -7,17 +7,17 @@
     "text": "This is where my projects are gonna be!"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About me",
-    "section": "",
-    "text": "I am Pranjul, a graduate student at Boston University, Boston, USA"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pranjul Garg",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites. Video"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I am Pranjul, a graduate student at Boston University, Boston, USA"
   }
 ]
