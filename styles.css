@@ -1,1 +1,23 @@
 /* css styles */
+/* Adjust image size */
+img {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  /* Adjust text sizes */
+  h1 {
+    font-size: 2.5rem; /* Larger title */
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 1.8rem; /* Subheading size */
+  }
+  
+  /* About section text formatting */
+  p {
+    font-size: 1.1rem; /* Standard text size */
+    line-height: 1.5;
+  }
+  
