@@ -1,23 +1,50 @@
-/* css styles */
-/* Adjust image size */
+/* Increase profile image size */
 img {
-    max-width: 300px;
-    height: auto;
+    width: 250px; /* Increase width of the image */
+    height: 250px; /* Maintain a square shape */
+    border-radius: 50%; /* Keep the round shape */
+    margin-bottom: 20px;
+    object-fit: cover; /* Ensure the image scales well */
   }
   
-  /* Adjust text sizes */
+  /* Header Styling */
   h1 {
-    font-size: 2.5rem; /* Larger title */
+    font-size: 2.5rem; /* Smaller font size for the main title */
     font-weight: bold;
+    color: #2c3e50; /* Darker color */
+    text-align: center;
+    margin-bottom: 15px;
   }
   
-  h2 {
-    font-size: 1.8rem; /* Subheading size */
-  }
-  
-  /* About section text formatting */
+  /* Paragraph Text */
   p {
-    font-size: 1.1rem; /* Standard text size */
-    line-height: 1.5;
+    font-size: 1.1rem; /* Slightly smaller text */
+    line-height: 1.6;
+    color: #34495e;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Adjusting the links for the contact section */
+  a {
+    color: #2980b9;
+    text-decoration: none;
+    font-size: 1.2rem; /* Increase the font size for the links */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for icons (LinkedIn and Email) */
+  a.icon {
+    font-size: 2.5rem; /* Larger icons */
+    margin: 0 10px; /* Add some space between icons */
+  }
+  
+  /* Make the body background light */
+  body {
+    padding: 20px;
+    background-color: #ecf0f1; /* Light background color */
   }
   
