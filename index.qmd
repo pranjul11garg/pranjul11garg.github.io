@@ -5,4 +5,16 @@ format:
     css: styles.css
 ---
 
+---
+title: "Pranjul Garg"
+image: "images/profile.jpeg"
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      href: mailto:pranjul@bu.edu
+    - icon: linkedin
+      href: https:/www.linkedin.com/in/gargpranjul
+---
+
 
