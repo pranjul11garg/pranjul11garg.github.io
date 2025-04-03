@@ -1,6 +1,6 @@
 ---
 format:
   html:
-    theme: quartz
+    theme: flatly
     css: styles.css
 ---
