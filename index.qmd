@@ -10,7 +10,8 @@ format:
 title: "About me"
 image: "images/profile.jpeg"
 about:
-  template: jolla
+  template: solana
+  image-width: 20em
   links:
     - icon: envelope
       text: Email
