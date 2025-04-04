@@ -5,4 +5,4 @@ format:
     css: styles.css
     toc: false
 ---
-<iframe src="resumes/Resume.pdf" width="100%" height="100%"></iframe>
+<iframe src="resumes/Resume.pdf" width="200%" height="200%"></iframe>

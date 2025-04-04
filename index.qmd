@@ -7,11 +7,8 @@ format:
 ---
 
 ---
-title: "About me"
+title: "Pranjul Garg"
 image: "images/profile.jpeg"
-image-width: 100em
-image-height: 100em
-image-shape: Rectangle
 
 about:
   template: broadside
