@@ -10,7 +10,7 @@ format:
 title: "Pranjul Garg"
 image: "images/profile.jpeg"
 about:
-  template: broadside
+  template: marquee
   links:
     - icon: envelope
       text: Email
