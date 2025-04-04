@@ -105,8 +105,8 @@ img.profile-image {
 
 /* === BROADEN NAVBAR HEIGHT === */
 .navbar {
-  padding-top: 4rem;           /* Top and bottom padding for height */
-  padding-bottom: 4rem;
+  padding-top: 3rem;           /* Top and bottom padding for height */
+  padding-bottom: 3rem;
 }
 
 /* === RESPONSIVE TWEAK (optional) === */
