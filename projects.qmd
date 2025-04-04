@@ -4,3 +4,20 @@ format:
     theme: flatly
     css: styles.css
 ---
+<nav class="navbar">
+  <ul class="navbar-left">
+    <li><a href="index.qmd">Home</a></li>
+    <li><a href="projects.qmd">Projects</a>
+      <ul class="dropdown-menu">
+        <li><a href="vortex.qmd">Vortex Analysis</a></li>
+        <li><a href="nyc.qmd">NYC Real Estate</a></li>
+        <li><a href="brewery.qmd">Brewery Analysis</a></li>
+      </ul>
+    </li>
+    <li><a href="resume.qmd">Resume</a></li>
+  </ul>
+  <ul class="navbar-right">
+    <li><a href="https://github.com/pranjul11garg"><i class="github-icon"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/gargpranjul/"><i class="linkedin-icon"></i></a></li>
+  </ul>
+</nav>

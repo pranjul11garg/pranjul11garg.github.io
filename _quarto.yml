@@ -9,14 +9,6 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
-        dropdown:
-          items:
-            - href: vortex.qmd
-              text: Vortex Analysis
-            - href: nyc.qmd
-              text: NYC Real Estate
-            - href: brewery.qmd
-              text: Brewery Analysis
       - href: resume.qmd
         text: Resume
     right:
@@ -33,3 +25,5 @@ format:
     css: styles.css
     toc: false
 editor: visual
+
+
