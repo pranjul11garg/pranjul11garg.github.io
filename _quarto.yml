@@ -7,15 +7,24 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: projects.qmd
-        text: Projects
+      - text: Projects
+        menu:
+          - text: NYC Analysis
+            href: nyc.qmd
+          - text: Brewery Setup
+            href: brewery.qmd
+          - text: Vortex Case Study
+            href: vortex.qmd
       - href: resume.qmd
         text: Resume
+
     right:
       - icon: github
         href: https://github.com/pranjul11garg
       - icon: linkedin
         href: https://www.linkedin.com/in/gargpranjul/
+      - icon: Email
+        href: mailto:pranjul@bu.edu
 
 format:
   html:
