@@ -14,7 +14,7 @@ image-height: 100em
 image-shape: Rectangle
 
 about:
-  template: solana
+  template: broadside
   links:
     - icon: envelope
       text: Email
