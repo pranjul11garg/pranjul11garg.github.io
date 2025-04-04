@@ -79,6 +79,6 @@ iframe {
     }
 
     iframe {
-        height: 400px; /* Smaller iframe height for mobile */
+        height: 1000px; /* Smaller iframe height for mobile */
     }
 }
