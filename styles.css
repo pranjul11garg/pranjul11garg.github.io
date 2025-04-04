@@ -91,21 +91,33 @@ img.profile-image {
     background-color: #0056b3;
 }
 
-/* Style for navbar */
-.navbar-left {
-    list-style: none;
+/* === NAVBAR FONT SIZE === */
+.navbar-brand, 
+.navbar-nav li a.nav-link {
+  font-size: 1.5rem !important;  /* Larger brand and nav links */
+  line-height: 2rem;             /* Improve vertical alignment */
+}
+
+/* === NAVBAR ICON SIZE === */
+.navbar .navbar-nav .nav-link .bi {
+  font-size: 2rem;               /* Bigger GitHub/LinkedIn/search icons */
+}
+
+/* === BROADEN NAVBAR HEIGHT === */
+.navbar {
+  padding-top: 1.2rem;           /* Top and bottom padding for height */
+  padding-bottom: 1.2rem;
+}
+
+/* === RESPONSIVE TWEAK (optional) === */
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
   }
-  
-  .navbar-left li {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-  }
-  
-  .navbar-left a {
-    text-decoration: none;
-    color: #007BFF;
-  }
+}
+
+
   
   iframe {
     width: 100%;   /* 100% width of the parent container */
