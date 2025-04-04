@@ -69,37 +69,6 @@ img.profile-image {
     color: #007BFF;
   }
   
-  /* Style for dropdown menu */
-  .navbar-left .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    list-style: none;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Show dropdown on hover */
-  .navbar-left li:hover .dropdown-menu {
-    display: block;
-  }
-  
-  .navbar-left .dropdown-menu li {
-    padding: 10px;
-  }
-  
-  .navbar-left .dropdown-menu li a {
-    color: black;
-  }
-  
-  .navbar-left .dropdown-menu li a:hover {
-    background-color: #ddd;
-  }
-  
 
 
 
