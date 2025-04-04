@@ -11,7 +11,6 @@ title: "About me"
 image: "images/profile.jpeg"
 about:
   template: solana
-  image-width: 20em
   links:
     - icon: envelope
       text: Email
@@ -32,5 +31,5 @@ Proficient in Microsoft Excel, Power BI, Python, and R, I leverage these tools t
 
 I am actively seeking to transition into an Analyst position where I can combine my technical expertise with my analytical skills to contribute to impactful projects and drive business success.
 
-## Let’s Connect
+
 
