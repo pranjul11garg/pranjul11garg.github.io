@@ -1,6 +1,4 @@
 ---
-project:
-  type: website
 format:
   html:
     theme: flatly
@@ -11,7 +9,7 @@ format:
 ---
 title: "Pranjul Garg"
 image: "images/profile.jpeg"
-
+page-layout: full
 about:
   template: broadside
   links:
