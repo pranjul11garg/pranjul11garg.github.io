@@ -93,8 +93,4 @@ img.profile-image {
         height: 500px;
     }
 
-    iframe {
-        height: 4000px;
-     /* Smaller iframe height for mobile */
-    }
-}
+   
