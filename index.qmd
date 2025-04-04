@@ -11,6 +11,7 @@ title: "About me"
 image: "images/profile.jpeg"
 image-width: 30em
 image-height: 60em
+image-shape: Rectangle
 
 about:
   template: solana
