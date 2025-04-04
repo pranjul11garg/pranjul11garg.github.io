@@ -50,18 +50,25 @@ img.profile-image {
     background-color: #0056b3;
 }
 
-/* Make the layout more responsive for mobile */
 @media only screen and (max-width: 768px) {
+    body {
+        max-width: 100%; /* Allow full width on smaller screens */
+        padding: 10px; /* Reduced padding for mobile */
+    }
+
     .content-section {
-        width: 100%;
-        padding: 10px;
+        padding: 10px 0; /* Adjust padding for mobile */
+    }
+
+    .about-section {
+        max-width: 100%; /* Remove max-width for smaller screens */
+        padding: 10px; /* Adjust padding for mobile */
     }
 
     img.profile-image {
-        width: 100%; /* Full width for mobile */
-        max-width: none; /* Remove maximum width */
+        width: 500px; /* Smaller image size for mobile */
+        height: 500px;
     }
-}
 
 
 
