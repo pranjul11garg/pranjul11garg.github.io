@@ -1,8 +1,9 @@
 /* Adjust the body to have more space for content */
 body {
-    margin: 0 auto; /* Center the content */
-    max-width: 1000px; /* Control the width of the page */
-    padding: 20px; /* Add padding around the content */
+    margin: 0 auto;
+    max-width: 80%; /* Allow content to be wider */
+    padding: 40px; /* Increase padding around the content */
+    font-size: 18px; /* Set a larger font size */
 }
 
 /* Content section */
@@ -11,38 +12,45 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 20px 0; /* Add padding for better spacing */
+    padding: 30px 0; /* Add more padding to make content less cramped */
     text-align: center;
 }
 
 /* Reduce the space around the "about" section */
 .about-section {
     margin: 0 auto;
-    max-width: 1000px; /* Set max width */
-    padding: 20px; /* Add padding */
+    max-width: 70%; /* Decrease max width for wider content */
+    padding: 20px;
     text-align: center;
-    line-height: 1.8; /* Improve readability */
+    line-height: 1.8;
 }
 
+/* Increase font size */
+p, h1, h2, h3 {
+    font-size: 22px; /* Larger text for better readability */
+}
 
+/* Adjust image size */
+img.profile-image {
+    width: 300px; /* Larger image */
+    height: 300px;
+    border-radius: 50%; /* Circle shape */
+    margin: 20px;
+}
 
-/* Links section */
+/* Adjust the links to make them larger */
 .links a {
     background-color: #007BFF;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 10px;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
+    font-size: 18px; /* Increase font size for links */
 }
 
 .links a:hover {
     background-color: #0056b3;
-}
-
-/* Clear floating after image */
-.profile-image {
-    clear: both;
 }
 
 
