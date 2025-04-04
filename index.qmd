@@ -8,8 +8,7 @@ format:
 
 ---
 title: "Pranjul Garg"
-image: "images/profile.jpeg"
-
+![Profile Image](images/profile.jpeg)
 about:
   template: broadside
   links:

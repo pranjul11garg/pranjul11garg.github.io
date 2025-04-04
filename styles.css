@@ -70,6 +70,6 @@ body {
 
     iframe {
         height: 4000px;
-        width: 1000px; /* Smaller iframe height for mobile */
+        width: 100%; /* Smaller iframe height for mobile */
     }
 }
