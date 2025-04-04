@@ -27,16 +27,44 @@ body {
 
 /* Increase font size */
 p, h1, h2, h3 {
-    font-size: 22px; /* Larger text for better readability */
+    font-size: 30px; /* Larger text for better readability */
 }
 
-/* Adjust image size */
+/* Image styling */
 img.profile-image {
-    width: 300px; /* Larger image */
-    height: 300px;
+    width: 80%; /* Adjust width for responsiveness */
+    max-width: 400px; /* Limit the maximum width */
+    height: auto; /* Keep aspect ratio intact */
     border-radius: 50%; /* Circle shape */
-    margin: 20px;
+    margin: 20px auto; /* Center the image */
+    display: block;
 }
+
+/* Content layout adjustments */
+.content-section {
+    display: flex;
+    justify-content: center; /* Center content */
+    align-items: center;
+    flex-direction: column; /* Stack elements */
+    width: 90%;
+    max-width: 1000px; /* Maximum width */
+    margin: 0 auto; /* Center the section */
+    padding: 20px;
+}
+
+/* Make the layout more responsive for mobile */
+@media only screen and (max-width: 768px) {
+    .content-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    img.profile-image {
+        width: 100%; /* Full width for mobile */
+        max-width: none; /* Remove maximum width */
+    }
+}
+
 
 /* Adjust the links to make them larger */
 .links a {
@@ -72,25 +100,4 @@ img.profile-image {
 
 
 
-/* Add responsive design to adjust content on smaller screens */
-@media only screen and (max-width: 768px) {
-    body {
-        max-width: 100%; /* Allow full width on smaller screens */
-        padding: 10px; /* Reduced padding for mobile */
-    }
 
-    .content-section {
-        padding: 10px 0; /* Adjust padding for mobile */
-    }
-
-    .about-section {
-        max-width: 100%; /* Remove max-width for smaller screens */
-        padding: 10px; /* Adjust padding for mobile */
-    }
-
-    img.profile-image {
-        width: 500px; /* Smaller image size for mobile */
-        height: 500px;
-    }
-
-   
