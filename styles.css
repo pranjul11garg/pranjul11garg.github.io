@@ -32,11 +32,11 @@ p, h1, h2, h3 {
 
 /* Image styling */
 img.profile-image {
-    width: 80%; /* Adjust width for responsiveness */
-    max-width: 400px; /* Limit the maximum width */
+    width: 100%; /* Adjust width for responsiveness */
+    max-width: 600px; /* Limit the maximum width */
     height: auto; /* Keep aspect ratio intact */
     border-radius: 50%; /* Circle shape */
-    margin: 20px auto; /* Center the image */
+    margin: 30px auto; /* Center the image */
     display: block;
 }
 
@@ -65,6 +65,16 @@ img.profile-image {
     }
 }
 
+.quarto-about .about-link {
+    font-size: 1.3rem;         /* Change text size */
+    margin-right: 1.5rem;      /* Add spacing between links */
+  }
+  
+  .quarto-about .about-link i {
+    font-size: 1.5rem;         /* Change icon size */
+    margin-right: 0.4rem;      /* Space between icon and label */
+  }
+  
 
 /* Adjust the links to make them larger */
 .links a {
