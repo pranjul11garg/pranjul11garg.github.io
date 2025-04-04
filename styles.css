@@ -18,7 +18,7 @@ body {
 /* Reduce the space around the "about" section */
 .about-section {
     margin: 0 auto;
-    max-width: 900px; /* Set max width */
+    max-width: 1000px; /* Set max width */
     padding: 20px; /* Add padding */
     text-align: center;
     line-height: 1.8; /* Improve readability */
@@ -26,7 +26,7 @@ body {
 
 /* Image Styling */
 img.profile-image {
-    width: 60%;  /* Adjust the image width to 60% of the available space */
+    width: 100%;  /* Adjust the image width to 60% of the available space */
     height: auto;  /* Maintain aspect ratio */
 }
 
@@ -74,11 +74,11 @@ iframe {
     }
 
     img.profile-image {
-        width: 200px; /* Smaller image size for mobile */
-        height: 200px;
+        width: 500px; /* Smaller image size for mobile */
+        height: 500px;
     }
 
     iframe {
-        height: 1000px; /* Smaller iframe height for mobile */
+        height: 2000px; /* Smaller iframe height for mobile */
     }
 }
