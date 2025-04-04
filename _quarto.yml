@@ -9,9 +9,15 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
-      
-      
+      - href: resume.qmd
+        text: Resume
+    right:
+      - icon: github
+        href: https://github.com/pranjul11garg
+      - icon: linkedin
+        href: https://www.linkedin.com/in/gargpranjul/
 
+      
 format:
   html:
     theme:
@@ -19,6 +25,7 @@ format:
       - brand
     css: styles.css
     toc: true
+editor: visual
 
 
 

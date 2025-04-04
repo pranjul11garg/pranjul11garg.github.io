@@ -7,15 +7,20 @@ format:
 ---
 
 ---
-title: "Pranjul Garg"
+title: "About me"
 image: "images/profile.jpeg"
 about:
   template: jolla
   links:
     - icon: envelope
+      text: Email
       href: mailto:pranjul@bu.edu
     - icon: linkedin
+      text: LinkedIn
       href: https:/www.linkedin.com/in/gargpranjul
+    - icon: github
+      text: GitHub
+      href: https://github.com/pranjul11garg
 ---
 
 # 𝐃𝐚𝐭𝐚-𝐃𝐫𝐢𝐯𝐞𝐧 𝐀𝐧𝐚𝐥𝐲𝐬𝐭 | 𝐁𝐈 & 𝐃𝐚𝐭𝐚 𝐕𝐢𝐬𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧 | 𝐄𝐱𝐜𝐞𝐥 | 𝐏𝐲𝐭𝐡𝐨𝐧 | 𝐑 | 𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 & 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬 𝐄𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭
