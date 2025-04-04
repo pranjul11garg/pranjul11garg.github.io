@@ -94,8 +94,8 @@ img.profile-image {
 /* === NAVBAR FONT SIZE === */
 .navbar-brand, 
 .navbar-nav li a.nav-link {
-  font-size: 1.5rem !important;  /* Larger brand and nav links */
-  line-height: 2rem;             /* Improve vertical alignment */
+  font-size: 3rem !important;  /* Larger brand and nav links */
+  line-height: 3rem;             /* Improve vertical alignment */
 }
 
 /* === NAVBAR ICON SIZE === */
@@ -105,15 +105,15 @@ img.profile-image {
 
 /* === BROADEN NAVBAR HEIGHT === */
 .navbar {
-  padding-top: 1.2rem;           /* Top and bottom padding for height */
-  padding-bottom: 1.2rem;
+  padding-top: 4rem;           /* Top and bottom padding for height */
+  padding-bottom: 4rem;
 }
 
 /* === RESPONSIVE TWEAK (optional) === */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .navbar {
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2em;
   }
 }
 
