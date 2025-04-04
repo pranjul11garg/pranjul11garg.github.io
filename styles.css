@@ -94,8 +94,8 @@ img.profile-image {
 /* === NAVBAR FONT SIZE === */
 .navbar-brand, 
 .navbar-nav li a.nav-link {
-  font-size: 3rem !important;  /* Larger brand and nav links */
-  line-height: 3rem;             /* Improve vertical alignment */
+  font-size: 2.5rem !important;  /* Larger brand and nav links */
+  line-height: 2.5rem;             /* Improve vertical alignment */
 }
 
 /* === NAVBAR ICON SIZE === */
@@ -105,8 +105,8 @@ img.profile-image {
 
 /* === BROADEN NAVBAR HEIGHT === */
 .navbar {
-  padding-top: 3rem;           /* Top and bottom padding for height */
-  padding-bottom: 3rem;
+  padding-top: 2.5rem;           /* Top and bottom padding for height */
+  padding-bottom: 2.5rem;
 }
 
 /* === RESPONSIVE TWEAK (optional) === */
