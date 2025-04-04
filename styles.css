@@ -25,11 +25,6 @@ body {
     line-height: 1.8;
 }
 
-/* Increase font size */
-p, h1, h2, h3 {
-    font-size: 30px; /* Larger text for better readability */
-}
-
 /* Image styling */
 img.profile-image {
     width: 80%; /* Adjust width for responsiveness */
@@ -40,16 +35,19 @@ img.profile-image {
     display: block;
 }
 
-/* Content layout adjustments */
-.content-section {
-    display: flex;
-    justify-content: center; /* Center content */
-    align-items: center;
-    flex-direction: column; /* Stack elements */
-    width: 90%;
-    max-width: 1000px; /* Maximum width */
-    margin: 0 auto; /* Center the section */
-    padding: 20px;
+/* Adjust the links to make them larger */
+.links a {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px; /* Increase font size for links */
+}
+
+.links a:hover {
+    background-color: #0056b3;
 }
 
 /* Make the layout more responsive for mobile */
@@ -64,6 +62,7 @@ img.profile-image {
         max-width: none; /* Remove maximum width */
     }
 }
+
 
 
 /* Adjust the links to make them larger */
