@@ -10,12 +10,13 @@ website:
       - href: projects.qmd
         text: Projects
         dropdown:
-          - href: vortex.qmd
-            text: Vortex Analysis
-          - href: nyc.qmd
-            text: NYC Real Estate
-          - href: brewery.qmd
-            text: Brewery Analysis
+          items:
+            - href: vortex.qmd
+              text: Vortex Analysis
+            - href: nyc.qmd
+              text: NYC Real Estate
+            - href: brewery.qmd
+              text: Brewery Analysis
       - href: resume.qmd
         text: Resume
     right:
