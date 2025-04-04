@@ -9,8 +9,8 @@ format:
 ---
 title: "About me"
 image: "images/profile.jpeg"
-image-width: 30em
-image-height: 60em
+image-width: 100em
+image-height: 100em
 image-shape: Rectangle
 
 about:
