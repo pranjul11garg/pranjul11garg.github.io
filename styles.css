@@ -78,6 +78,6 @@ img.profile-image {
 
     iframe {
         height: 4000px;
-        width: 100%; /* Smaller iframe height for mobile */
+     /* Smaller iframe height for mobile */
     }
 }
