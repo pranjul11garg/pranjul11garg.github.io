@@ -1,50 +1,62 @@
-/* Increase profile image size */
-img {
-    width: 250px; /* Increase width of the image */
-    height: 250px; /* Maintain a square shape */
-    border-radius: 50%; /* Keep the round shape */
-    margin-bottom: 20px;
-    object-fit: cover; /* Ensure the image scales well */
+/* Image Styling */
+img.profile-image {
+    width: 200px; /* Set the width of the image */
+    height: 200px; /* Set the height */
+    border-radius: 50%; /* Circle shape */
+    margin: 20px; /* Add margin around the image */
   }
   
-  /* Header Styling */
-  h1 {
-    font-size: 2.5rem; /* Smaller font size for the main title */
-    font-weight: bold;
-    color: #2c3e50; /* Darker color */
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  
-  /* Paragraph Text */
-  p {
-    font-size: 1.1rem; /* Slightly smaller text */
-    line-height: 1.6;
-    color: #34495e;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  /* Adjusting the links for the contact section */
-  a {
-    color: #2980b9;
-    text-decoration: none;
-    font-size: 1.2rem; /* Increase the font size for the links */
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Styling for icons (LinkedIn and Email) */
-  a.icon {
-    font-size: 2.5rem; /* Larger icons */
-    margin: 0 10px; /* Add some space between icons */
-  }
-  
-  /* Make the body background light */
+  /* Page styling */
   body {
+    font-family: Arial, sans-serif; /* Clean font for content */
+    line-height: 1.6; /* Make content more readable */
+    max-width: 1200px; /* Restrict page width to prevent stretched text */
+    margin: 0 auto; /* Center content */
+  }
+  
+  /* Heading styles */
+  h1, h2, h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #333; /* Darker text for better readability */
+  }
+  
+  /* About section */
+  .about-section {
+    margin-top: 30px;
     padding: 20px;
-    background-color: #ecf0f1; /* Light background color */
+  }
+  
+  /* Links section (buttons for LinkedIn and Email) */
+  .links a {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .links a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Content section (adjusting layout) */
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content-section p {
+    max-width: 800px; /* Restrict paragraph width */
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Adjustments for the footer and contact section */
+  footer {
+    text-align: center;
+    margin-top: 50px;
   }
   
