@@ -4,6 +4,7 @@ format:
     theme: flatly
     css: styles.css
     toc: false
+    margin-width: 450px
 ---
 
 ---
