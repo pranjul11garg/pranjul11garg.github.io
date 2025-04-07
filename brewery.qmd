@@ -5,8 +5,7 @@ format:
     css: styles.css
     toc: false
     grid:
-      margin-width: 200px
-      body-width: 600px
+      body-width: 1000px
 ---
 
 ::: {.columns}
@@ -55,7 +54,7 @@ The brew lab  would be focusing upon the 4 major Advertising  strategies:
 
 ### Establishing Financial Strategy
 
-![Rent for the Space]](images/financeoffice.png)
+![Rent for the Space](images/financeoffice.png)
 
 
 
