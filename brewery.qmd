@@ -3,11 +3,11 @@ format:
   html:
     theme: flatly
     css: styles.css
-    toc: false
+    toc: true
 ---
 
 
-## Park Street Brew Co.
+# Park Street Brew Co.
 
 ### Objective & Analysis Tools: 
 - To deliver strategic recommendations for the successful establishment of a brewery, using market analysis, financial analysis, Innovation  and operational insights.
@@ -23,12 +23,15 @@ format:
 
 
 ### About The Brewery
-Location: Park Street
+
+**Location:** Park Street
+
+![Location](images/brewerymap.png)
+
+
 
 - Tourism:  Park Street is a historic area, and Boston's Freedom Trail runs through it, attracting tourists year-round.
-
 - Events:  Festivals, sports events, or concerts nearby can significantly increase foot traffic and brewery visits.
-
 - Corporate offices: There are lots of corporate offices nearby the area, which makes it more accessible & feasible  for customers to visit the nearby breweries or cafes.
 
 
