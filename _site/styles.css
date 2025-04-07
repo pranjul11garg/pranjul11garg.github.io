@@ -1,5 +1,95 @@
-/* css styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+
+
+
+/* Increase font size */
+p, h1, h2, h3 {
+    font-size: 30px; /* Larger text for better readability */
+}
+
+/* Image styling */
+img.profile-image {
+    width: 100%; /* Adjust width for responsiveness */
+    max-width: 600px; /* Limit the maximum width */
+    height: auto; /* Keep aspect ratio intact */
+    border-radius: 50%; /* Circle shape */
+    margin: 30px auto; /* Center the image */
+    display: block;
+}
+
+/* Content layout adjustments */
+.content-section {
+    display: flex;
+    justify-content: center; /* Center content */
+    align-items: center;
+    flex-direction: column; /* Stack elements */
+    width: 90%;
+    max-width: 1000px; /* Maximum width */
+    margin: 0 auto; /* Center the section */
+    padding: 20px;
+}
+
+/* Make the layout more responsive for mobile */
+@media only screen and (max-width: 768px) {
+    .content-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    img.profile-image {
+        width: 100%; /* Full width for mobile */
+        max-width: none; /* Remove maximum width */
+    }
+}
+
+.quarto-about .about-link {
+    font-size: 1.3rem;         /* Change text size */
+    margin-right: 1.5rem;      /* Add spacing between links */
+  }
+  
+  .quarto-about .about-link i {
+    font-size: 1.5rem;         /* Change icon size */
+    margin-right: 0.4rem;      /* Space between icon and label */
+  }
+  
+/* === NAVBAR FONT SIZE === */
+.navbar-brand, 
+.navbar-nav li a.nav-link {
+  font-size: 1.3rem !important;   /* Still prominent, not overkill */
+  line-height: 2rem;              /* Balanced vertical spacing */
+}
+
+/* === NAVBAR ICON SIZE === */
+.navbar .navbar-nav .nav-link .bi {
+  font-size: 1.6rem;              /* Slightly larger, not oversized */
+}
+
+/* === BROADEN NAVBAR HEIGHT (Refined) === */
+.navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #e0e0e0;
+  }
+  
+
+/* === RESPONSIVE TWEAK === */
+@media (max-width: 1000px) {
+  .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+  
+  iframe {
+    width: 100%;   /* 100% width of the parent container */
+    height: 1000px; /* Adjust height to fit content */
+    border: none;
 }
