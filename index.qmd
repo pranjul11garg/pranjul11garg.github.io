@@ -4,7 +4,9 @@ format:
     theme: flatly
     css: styles.css
     toc: false
-    body-width: 600px
+    grid:
+      margin-width: 200px
+      body-width: 600px
 ---
 
 ---
