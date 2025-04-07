@@ -1,14 +1,4 @@
 ---
-format:
-  html:
-    theme: flatly
-    css: styles.css
-    toc: false
-    grid:
-      body-width: 1000px
----
-
----
 title: "Pranjul Garg"
 image: "images/profile.jpeg"
 about:
