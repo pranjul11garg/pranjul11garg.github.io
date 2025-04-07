@@ -6,7 +6,8 @@ format:
     toc: true
 ---
 
-
+::: {.columns}
+::: {.column width="50%"}
 # Park Street Brew Co.
 
 ### Objective & Analysis Tools: 
@@ -45,4 +46,16 @@ The brew lab  would be focusing upon the 4 major Advertising  strategies:
 - social media marketing:$28794.725
 - local adversting: $78071.56
 
+:::
+
+::: {.column width="50%"}
+
+### Establishing Financial Strategy
+
+!(images/financeoffice.png)
+
+
+
+:::
+:::
 
